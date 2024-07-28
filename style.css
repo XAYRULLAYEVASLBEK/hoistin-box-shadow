@@ -1,0 +1,246 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    padding-top: 30px;
+}
+
+.container {
+    min-width: 1330px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.cs_go {
+    margin-left: 52px;
+}
+
+.wrapper {
+    background-image: url("./images/bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1024px;
+    width: 1440px;
+}
+
+.navigation {
+    display: flex;
+    align-items: center;
+    gap: 440px;
+}
+
+.header_inner {
+    display: flex;
+    align-items: center;
+    gap: 35px;
+}
+
+.header_btn {
+    width: 243px;
+    align-items: center;
+    display: flex;
+    gap: 10px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+    font-family: "Roboto";
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 23px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px 0px rgb(218, 211, 255);
+    background: rgba(0, 159, 245, 0.71);
+    border: none;
+}
+
+.header_text {
+    color: #d5d5d6;
+    font-family: "Roboto";
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 23px;
+}
+
+.header_lang {
+    color: rgb(213, 213, 214);
+    font-family: "Roboto";
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 23px;
+    background-color: transparent;
+    border: none;
+}
+
+.alone {
+    width: 604px;
+    height: 103px;
+    background-color: rgb(255, 198, 17);
+    box-sizing: border-box;
+    border: 11px solid rgb(90, 85, 85);
+    border-radius: 50px;
+}
+
+.alone_text {
+    color: rgb(0, 0, 0);
+    font-family: "Roboto";
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 42px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.alone_btn {
+    margin-top: 177px;
+    margin-left: 443px;
+}
+
+.simple {
+    width: 361px;
+    height: 420px;
+    box-shadow: 8px 7px 20px 0px rgb(255, 255, 255);
+    background: rgb(31, 31, 31);
+}
+
+.sim_text {
+    color: rgb(0, 0, 0);
+    font-family: "Roboto";
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 42px;
+    margin-left: 107px;
+}
+
+.zywoo {
+    width: 361px;
+    height: 420px;
+    box-shadow: 8px 7px 20px 0px rgb(255, 255, 255);
+    background: rgb(31, 31, 31);
+}
+
+.zyw_text {
+    color: rgb(0, 0, 0);
+    font-family: "Roboto";
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 42px;
+    margin-left: 107px;
+}
+
+.niko {
+    width: 361px;
+    height: 420px;
+    box-shadow: 8px 7px 20px 0px rgb(255, 255, 255);
+    background: rgb(31, 31, 31);
+}
+
+.nik_text {
+    color: rgb(0, 0, 0);
+    font-family: "Roboto";
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 42px;
+    margin-left: 137px;
+}
+
+.cards {
+    display: flex;
+    margin-top: 132px;
+    gap: 127px;
+    margin-left: 52px;
+}
+
+.footer {
+    width: 1440px;
+    height: 1042px;
+    box-shadow: 0px 4px 18.6px 0px rgb(0, 0, 0);
+    background: rgb(0, 0, 0);
+    margin-top: 102px;
+}
+
+.infor {
+    color: rgb(90, 85, 85);
+    font-family: "Roboto";
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 75px;
+    padding-top: 58px;
+    padding-left: 577px;
+}
+
+.uz_text {
+    width: 663px;
+    height: 140px;
+    color: rgb(255, 255, 255);
+    font-family: "Roboto";
+    font-size: 27px;
+    font-weight: 600;
+    line-height: 32px;
+}
+
+.uzb {
+    display: flex;
+    padding-top: 58px;
+    gap: 87px;
+    padding-left: 58px;
+}
+
+.uz_btn {
+    width: 278px;
+    height: 61px;
+    box-shadow: 0px 7px 12.8px 0px rgb(255, 255, 255);
+    background: rgb(83, 83, 83);
+    margin-top: 85px;
+    color: rgb(255, 255, 255);
+    font-family: "Roboto";
+    font-size: 27px;
+    font-weight: 700;
+    line-height: 32px;
+}
+
+.uzb_text {
+    width: 663px;
+    height: 140px;
+    color: rgb(255, 255, 255);
+    font-family: "Roboto";
+    font-size: 27px;
+    font-weight: 600;
+    line-height: 32px;
+    margin-top: 169px;
+    margin-left: 58px;
+}
+
+.uzb_btn {
+    width: 278px;
+    height: 61px;
+    box-shadow: 0px 7px 12.8px 0px rgb(255, 255, 255);
+    background: rgb(255, 194, 0);
+    color: rgb(0, 0, 0);
+    font-family: "Roboto";
+    font-size: 27px;
+    font-weight: 700;
+    line-height: 32px;
+    margin-top: 97px;
+}
+.jami{
+    display: flex;
+}
+.rasm{
+    margin-top: 168px;
+    margin-left: 71px;
+}
+.nav_end{
+    width: 1440px;
+    height: 150px;
+    background: rgb(255, 198, 17);
+    padding-top: 51px;
+    padding-left: 58px;
+    display: flex;
+}
+.vector{
+    margin-left: 997px;
+}
